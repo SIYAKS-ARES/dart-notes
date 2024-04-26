@@ -1,4 +1,3 @@
-import 'dart:ffi';
 
 void main() {
   Student student = Student(name: "Ali", note: 67);
