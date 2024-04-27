@@ -1,9 +1,9 @@
 void main() {
-
+  //Command + shift + 7 ile satırın hepsini yoruma dönüştürebilirsiniz.
   /*String name = "Said";
   int age = 22;
 
-  print("Merhaba. Ben $name. $age yaşındayım"); 
+  print("Merhaba. Ben $name. $age yaşındayım");
 }
   introduceYourself(String name, int age){
   }*/
@@ -27,11 +27,10 @@ print("Second is true");
 }else{
 print("Third is true");
 }*/
-var number;
-try {
-print(number - 1);
-} catch (e) {
-print(e);
+  var number;
+  try {
+    print(number - 1);
+  } catch (e) {
+    print(e);
+  }
 }
-}
-
