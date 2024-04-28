@@ -35,7 +35,7 @@ with Flutter'''; // Üç adet tırnak ile çok uzun String'leri yazabiliriz.
   int calculation = number >= number2
       ? number++
       : number; /* Burada "?" ve ":" operatörleri if-else komutları gibi çalışır, burada kod parçası
-  "?" ile number number2'ye eşit veya büyükse number'ı bir arttır, ":" ile değilse olduğu gibi bırak komutunu verir. */
+"?" ile number number2'ye eşit veya büyükse number'ı bir arttır, ":" ile değilse olduğu gibi bırak komutunu verir. */
   late String user_name;
   print(calculation);
   user_name = 'SAİD3'; //Bu şekilde sonradan atama yapılabilir.
