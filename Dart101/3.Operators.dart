@@ -34,10 +34,9 @@ void main() {
       emptyNumber ?? number; //emptyNumber null ise number yazdır.
   print(calculation2);
 
-  int? emptyNumber2;
-  int calculation3 =
-      emptyNumber2 == null ? 2 : emptyNumber!; //emptyNumber2 null ise iki ata.
-  print(calculation3);
+  // int? emptyNumber2;
+  // int calculation3 = emptyNumber2 == null ? 2 : emptyNumber!; //emptyNumber2 null ise iki ata.
+  // print(calculation3);
 
   double number7 = 5.22;
   print(number7);
@@ -51,8 +50,6 @@ void main() {
     ..round(); // Objeyi herhangi bir yere eşitlemek sadece objenin kendi üzerinde bu işlemler yapılır.
   print(
       f); // Örnek olarak burada tekrar String veri tipine dönüştürdükten sonra tekrar double olan veri tipine göre fonskiyon atadık.
-  var g = number7
-    ?..toString()
-    ..round(); // Burada ise tekrar kontrol yapıp "eğer null ise işlemi gerçekleştir" komutunu verir. Aynı şekilde tek noktalılarda da geçerlidir.
-  print(g);
+  // var g = number7 ?..toString() ..round(); // Burada ise tekrar kontrol yapıp "eğer null ise işlemi gerçekleştir" komutunu verir. Aynı şekilde tek noktalılarda da geçerlidir.
+  // print(g);
 }

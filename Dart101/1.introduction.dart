@@ -4,7 +4,7 @@ void main() {
   /* "const" değişkenler kod compiletime'da bir sabit olarak koda eklenir,
   uygulama yazılırken değişmeyecek parametreler için kullanılır. Örneğin base url, app title, uygulamada kullanılacak renk ve aset path'leri vb. */
   print(Dart101);
-  final Dart_Final = "That is Final Value";
+  // final Dart_Final = "That is Final Value";
   /* "final" değişkenler bir runtime'da koda eklenir. Örneğin varolan bir class, bir widget içinde
   ayağa kalkarkenki rengi değişmeyecek ise kullanılabilir. */
   const java = "Java or flutter?";
